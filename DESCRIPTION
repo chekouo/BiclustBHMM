@@ -1,0 +1,12 @@
+Package: BiclustBHMM
+Type: Package
+Title: BiclustBHMM: A Bayesian model-based biclustering via Hidden Markov Models 
+Version: 1.0
+Date: 2023-06-20
+Author: Thierry Chekouo
+Maintainer: Thierry Chekouo <tchekouo@umn.edu>
+Description: The BiclustBHMM package implements an MCMC algorithm for a Bayesian model-based biclustering that accounts for prior dependence between features while classifying them into under-expressed, over-expressed, and irrelevant features.  
+License: GPL (>= 2.0)
+Imports: mc2d, truncnorm, invgamma
+RoxygenNote: 7.2.3
+Encoding: UTF-8

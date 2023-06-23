@@ -1,0 +1,8 @@
+importFrom("stats", "dnorm", "rnorm")
+import(mc2d)
+import(truncnorm)
+import(invgamma)
+export(BiclustBHMM)
+export(F1)
+export(GenDataHMM)
+
