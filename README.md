@@ -3,8 +3,6 @@
 
  This is the BiclustBHMM package
 
- License: GPL
-
  For more information please contact tchekouo@umn.edu
 
 # Installation
