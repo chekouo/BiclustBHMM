@@ -16,9 +16,8 @@ GenDataHMM=function(OrderFeatured=FALSE,K=K,MeanOverExpre=1:K,MeanUnderExpre=-c(
   ### Create kappa, feature membership
   KappaKnown=OrderFeatured
   set.seed(1)
-  kappajk=matrix(0,p,K)
+  kappajk=matrix(3,p,K)
   if (KappaKnown==TRUE){
-    kappajk=matrix(3,p,K);
     kappajk[1:100,]=1;
     kappajk[101:200,]=2;
   } else {
